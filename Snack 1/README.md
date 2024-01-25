@@ -1,0 +1,30 @@
+# Snack 1:
+
+Dwayne Johnson ci ha chiesto di creare i segnaposto per il tavolo degli invitati alla sua mega festa vip.
+Ci ha lasciato il nome del tavolo ("Tavolo Vip") e la lista degli invitati in ordine di posto:
+const vips = [
+  'Dwayne Johnson',
+  'Brad Pitt',
+  'Johnny Depp',
+  'Lady Gaga',
+  'Cristiano Ronaldo',
+  'Georgina Rodriguez',
+  'Chiara Ferragni',
+  'Fedez',
+  'George Clooney',
+  'Amal Clooney',
+  'Maneskin',
+];
+La tipografia per stampare il tutto vuole che le mandiamo una lista di ospiti in un formato specifico, per cui dobbiamo fare in modo che ogni ospite sia un oggetto javascript che ha come attributi:
+nome del tavolo,
+nome dell'ospite,
+posto occupato.
+Generiamo e stampiamo in console l'array di oggetti per i segnaposto.
+
+# Svolgimento 
+
+- creo un array di oggetti per gli ospiti
+- uso il .map per creare il nuovo array modificato
+    - per ogni ospite darò in attributo il tavolo, il nome e il posto 
+- lo salvo in una costante
+- stampo la costante
